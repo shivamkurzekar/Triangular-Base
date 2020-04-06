@@ -1,6 +1,7 @@
 //triangular_base
 //Robocon 2019
-//- Shivam Kurzekar
+//Manual Controlled without PID
+//- Shivam Kurzekar RTF
 
 
 #include <XBOXRECV.h>
@@ -11,7 +12,7 @@
 #endif
 #include <SPI.h>
 
-int a1 = 4, a2 = 2,b1 = A0, b2 = A1, c1 = 8, c2 = 7, pin_a = 3, pin_b = 5, pin_c = 6;
+int a1 = 4, a2 = 2,b1 = A0, b2 = A1, c1 = 8, c2 = 7, pin_a = 3, pin_b = 5, pin_c = 6; 
 int pa = 0, pb = 0, pc = 0;
 int x = 0, y = 0;
 float a = 0, b = 0, c = 0, abs_a = 0, abs_b = 0, abs_c = 0;
