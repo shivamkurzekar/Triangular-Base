@@ -1,4 +1,6 @@
 //triangular_base
+//Robocon 2019
+//- Shivam Kurzekar
 
 
 #include <XBOXRECV.h>
